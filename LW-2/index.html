@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>
+        Воронюк Є.В., ІА-23, ЛР-2, В-9
+    </title>
+    <style>
+        table {
+            border-collapse: collapse;
+             margin-bottom: 25px;
+        }
+
+        td {
+            width: 100px;
+            height: 20px;
+            border: 1px solid #000000;
+            }
+
+        tr:nth-child(1) {
+            background-color: #098f8f; 
+            color: #FF4D4D;
+        }
+
+        tr:nth-child(2) {
+            background-color: #f5f509;
+            color: #0073E6 ;
+        }
+
+        tr:nth-child(1):hover {
+            background-color: #f5f509;
+            color: #0073E6;
+        }
+        
+        tr:nth-child(2):hover {
+            background-color: #098f8f;
+            color: #ff4D4D;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <table>
+        <tr>
+            <td colspan="2" rowspan="2">Воронюк<br>Євгеній</td>
+            <td colspan="3">Владиславович</td>
+        </tr>
+        <tr>
+            <td rowspan="2">ІА-23</td>
+            <td rowspan="3" style="width: 50px">ЛР-2</td>
+            <td rowspan="3" style="width: 50px">В-9</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</div>
+
+<div class="container">
+    <div class="element-position">
+        <div class="circle-position"></div>
+    </div>
+
+    <div class="element-transform">
+        <div class="circle-transform"></div>
+    </div>
+</div>
+</body>
+</html>
