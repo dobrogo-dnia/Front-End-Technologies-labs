@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+div {
+    margin-top: 10vh;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+input, button {
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+input, button {
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+button:hover {
+    background-color: silver;
+}

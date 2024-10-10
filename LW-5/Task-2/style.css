@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+div {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 450px;
+    height: 30px;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 20px;
+    width: 450px;
+    height: 450px;
+}
+
+td {
+    border: 1px solid black;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+td:hover {
+    background-color: lightgray;
+}
