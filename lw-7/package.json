@@ -2,7 +2,7 @@
   "name": "lw-7",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/dobrogo-dnia/Front-End-Technologies-labs/tree/main/lw-7",
+  "homepage": "https://dobrogo-dnia.github.io/Front-End-Technologies-labs/lw-7",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
